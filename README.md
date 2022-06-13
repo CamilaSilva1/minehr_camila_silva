@@ -23,4 +23,4 @@ Instalação da aplicação:
     O versionamente do código se encontra no github
 
     O projeto se encontra hospedado no Netlify
-    link
+    https://minehr-camilasilva.netlify.app
