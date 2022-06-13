@@ -5,11 +5,8 @@
 // Main script
 
 // imports
-<<<<<<< HEAD
 import React from 'react';
-=======
 import React, { Component } from 'react';
->>>>>>> 66be2206c4bc27de1a372a6b95ff64087d85a415
 
 // importing modules and components
 import BarChart from './components/BarChart.jsx';
