@@ -5,7 +5,7 @@
 // Main script
 
 // imports
-import React, { Component } from 'react';
+import React from 'react';
 
 // importing modules and components
 import BarChart from './components/BarChart.jsx';
