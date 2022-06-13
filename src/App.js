@@ -5,6 +5,7 @@
 // Main script
 
 // imports
+import React from 'react';
 import React, { Component } from 'react';
 
 // importing modules and components
