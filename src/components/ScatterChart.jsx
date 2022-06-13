@@ -7,6 +7,9 @@
 import React from 'react';
 import Chart from 'react-apexcharts';
 
+// importing styles
+import styles from '../modules/ScatterChart.module.css'
+
 class ScatterChart extends React.Component{
     constructor(props){
         super(props);
@@ -78,7 +81,7 @@ class ScatterChart extends React.Component{
     // css styling
     render(){
         return(
-            <div>
+            <div className={styles.scatter}>
             <Chart  
                    options={this.state.options}
                    series={this.state.series}

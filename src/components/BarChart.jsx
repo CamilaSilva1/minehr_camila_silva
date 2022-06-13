@@ -7,6 +7,9 @@
 import React from 'react';
 import Chart from 'react-apexcharts';
 
+// importing styles
+import styles from '../modules/BarChart.module.css'
+
 class BarChart extends React.Component{
     constructor(props){
         super(props);
@@ -80,8 +83,8 @@ class BarChart extends React.Component{
     // css styling 
     render(){
         return(
-          <div>
-            <Chart
+          <div className={styles.barGraph}>
+            <Chart 
                 options={this.state.options}
                 series={this.state.series}
                 type="bar"

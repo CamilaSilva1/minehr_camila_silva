@@ -9,17 +9,29 @@ import React, { Component } from 'react';
 
 // importing modules and components
 import BarChart from './components/BarChart.jsx';
-import ScatterChart from './components/ScatterChart.jsx'
+import ScatterChart from './components/ScatterChart.jsx';
+import Header from './components/Header.jsx';
+import styles from './modules/Container.module.css'
 
 // renderizing the components on the main page
 class App extends React.Component{
       render(){
           return (
-              <div>
-                {/* bar chart component */}
-                <BarChart />
-                <ScatterChart />
-              </div>
+            <div className={styles.body}>
+                {/* header component */}
+                <Header />  
+            
+                <div className={styles.container}>
+        
+                  {/* bar chart component */}
+                  <BarChart />
+        
+                  {/* scatter chart component */}
+                  <ScatterChart />
+                  
+                </div>
+             
+          </div>
           );
       }
 }
