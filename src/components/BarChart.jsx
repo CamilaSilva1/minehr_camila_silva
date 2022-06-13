@@ -88,8 +88,8 @@ class BarChart extends React.Component{
                 options={this.state.options}
                 series={this.state.series}
                 type="bar"
-                width={350}
-                height={550}
+                width={550}
+                height={350}
             />
           </div>
         )

@@ -86,8 +86,8 @@ class ScatterChart extends React.Component{
                    options={this.state.options}
                    series={this.state.series}
                    type="scatter"
-                   width={350}
-                   height={500}
+                   width={550}
+                   height={350}
             />
             </div>
         )
