@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# React.js 
+
+# MINEHR
+
+Sobre o projeto:
+
+    Criação de um dashboard de gráficos utilizando React.js com a biblioteca ApexCharts.js
+
+Ferramentas utilizadas:
+
+    Visual Studio Code
+    React.js
+    ApexCharts.js
+    Github
+
+Funcionamento do projeto:
+
+    O funcionamento central do projeto consiste em chamadas de componentes
+    e modules para a criação de gráficos do ApexCharts.js
+
+Instalação da aplicação:
+
+    O versionamente do código se encontra no github
+
+    O projeto se encontra hospedado no Netlify
+    link
+>>>>>>> 66be2206c4bc27de1a372a6b95ff64087d85a415
